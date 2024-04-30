@@ -1,0 +1,94 @@
+.post-container{
+    width: 100%;
+    /* margin: 2rem 2rem; */
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 1px 1px 16px -8px rgba(0,0,0,0.35);
+    -moz-box-shadow: 1px 1px 16px -8px rgba(0,0,0,0.35);
+    box-shadow: 1px 1px 16px -8px rgba(0,0,0,0.35);
+    
+}
+
+.post-wrapper{
+    margin: 1rem;
+    padding: 1rem;
+}
+.posttop{
+    display: flex;
+    align-items: center;
+}
+.posttop img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.postauth-time{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+.postauth-time span:first-child{
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.postauth-time span:last-child{
+    font-size: small;
+
+}
+.postcaption-img{
+   
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.postcaption-img img{
+    width: 100%;
+    height: 30rem;
+    object-fit:cover;
+
+}
+.post-likescount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likescount-left img{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+
+}
+.likescount-left{
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.likescount-left span{
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.commentcount{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.post-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.picon{
+   cursor: pointer;
+}
+.postbottom-icons span{
+    margin: 0 1rem;
+    font-weight: 500; 
+    cursor: pointer;
+}

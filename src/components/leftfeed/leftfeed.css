@@ -1,0 +1,70 @@
+.leftfeed-container{
+  flex: 3;
+  overflow-y:scroll;
+  position:sticky;
+  top: 50px; 
+  max-height: 100vh
+
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+  }
+
+.sidebarWrapper {
+    padding: 20px;
+  }
+
+.leftfeed-list{
+    list-style: none;
+    color: black;
+    
+}
+.leftfeed-list li{
+    margin: 25px 0;
+    font-weight: bold;
+
+}
+.leftfeed-list li span{
+    margin: 0 5px;
+    cursor: pointer;
+    
+    
+}
+.people-list{
+    list-style: none;
+    
+}
+.people-list li{
+    margin: 15px 0;
+    
+}
+.peopleimg{
+    /* position: relative; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h5{
+    margin-left: 35px;
+    font-weight: bold;
+}
+.namespan{
+    margin: 0 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+  
+
+  
+
+
+  
